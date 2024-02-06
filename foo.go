@@ -1,5 +1,5 @@
 package koanftestversionretract
 
-func Foo() string {
-	return "v0.0.1"
+func Foo() (string, error) {
+	return "v0.0.2", nil
 }
